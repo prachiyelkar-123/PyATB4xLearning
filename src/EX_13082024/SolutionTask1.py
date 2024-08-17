@@ -1,4 +1,5 @@
 # Get user input
+
 num = int(input("Enter a number to print its multiplication table: "))
 
 # Print the multiplication table
