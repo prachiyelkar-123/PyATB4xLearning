@@ -6,17 +6,17 @@ def print_arguments(*args):
 
 # list = ["pramod", "amit", "lucky"]
 
-print_arguments("pramod", "amit", "lucky")
-print_arguments("amit", "lucky")
-print_arguments("amit", 10)
-print_arguments("amit", 10, True)
-print_arguments("amit", 10, True, False)
-print_arguments("amit", 10, True, False, "PRAMOD")
+print_arguments("prachi", "pradnya", "prajakta")
+print_arguments("alka", "eknath")
+print_arguments("alka", 10)
+print_arguments("pooja", 10, True)
+print_arguments("priya", 10, True, False)
+print_arguments("amit", 10, True, False, "Prachi")
 print_arguments("lucky")
 # print_arguments() -minimum 1 arguement is importa
 
 
-print("amit")
-print("pramod", "amit")
-print("pramod", "amit", True)
-print("pramod", "amit", True, False)
+print("pradnya")
+print("prachi", "alka")
+print("alka", "pradnya", True)
+print("prajakta", "pooja", True, False)
